@@ -3,8 +3,10 @@ Para desenvolvimento no VSCode no linux:
 2. Quando seu código estiver pronto, construa o executável com o atalho Ctrl + Shift + B
    (ou vá em Terminal > Run Build Task)
    Se estiver compilando pela primeira vez, escolha a opção "C/C++: g++.exe build active file".
-3. Abra um novo terminal no próprio VS Code (ou externo, preferencialmente) e execute o exemplo construído no passo anterior. Exemplo: supondo que o código seja exemplo.cpp, o executável gerado será simplesmente "exemplo". Daí para executá-lo, entre na pasta onde o código foi gerado (basta build) e execute o seguinte comando:
-./exemplo
+3. Abra um novo terminal no Linux a partir da pasta 'build' gerada e execute o exemplo construído no passo anterior. 
+   Exemplo: supondo que o código seja exercicio01.cpp, o executável gerado será simplesmente "exercicio01". 
+   Para executá-lo, considerando que você já está na pasta build, e execute o seguinte comando:
+   ./exercicio01
 
 --------------------------------------------------------------------------------------------------
 
