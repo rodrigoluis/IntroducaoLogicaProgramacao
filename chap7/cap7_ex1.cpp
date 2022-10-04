@@ -21,12 +21,9 @@ int main()
 {
     char s[100];
     int spaces;
-    cout << "Inform a string: ");
-    fgets(s, 100, stdin);
+    cout << "Inform a string: ";
+    cin.getline(s, 100);
     spaces = countSpaces(s);
-    cout << "Number of Spaces: %d\n", spaces);
-
-    cout << "%d\n",__STDC_VERSION__);
-
+    cout << "Number of Spaces: " << spaces << endl;
     return 0;
 }

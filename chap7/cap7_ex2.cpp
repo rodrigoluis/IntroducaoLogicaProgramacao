@@ -29,6 +29,6 @@ int main()
 {
     char s[100] = "test of the function";
     capitalize(s);
-    puts(s);
+    cout << s << endl;
     return 0;
 }

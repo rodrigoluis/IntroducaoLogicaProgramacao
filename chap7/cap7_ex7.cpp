@@ -31,10 +31,10 @@ int main()
     char s[100] = "test of the function";
     char ch = 't';
     int removed;
-    cout << "Input: %s\n", s);
+    cout << "Input: " << s << endl;
     removed = removeChar(s, ch);
-    cout << "Final: %s\n", s);
-    cout << "Character '%c' was removed %d times.\n", ch, removed);
+    cout << "Final: " << s << endl;
+    cout << "Character \'" << ch << "\' was removed " << removed << " times." << endl;
 
     return 0;
 }

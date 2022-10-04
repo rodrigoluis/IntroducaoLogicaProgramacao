@@ -4,8 +4,8 @@ Print the resulting string in the main function.
 */
 
 #include <iostream>
+#include <cstring>
 using namespace std;
-#include <string.h>
 
 void invertString(char s[])
 {
@@ -21,7 +21,8 @@ void invertString(char s[])
 
 int main()
 {
-    char s[100] = "test of the function";
+    char s[100];
+    cin.getline(s, 100);
     invertString(s);
     puts(s);
     return 0;

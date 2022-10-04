@@ -6,8 +6,7 @@ of the vectors created.
 
 #include <iostream>
 using namespace std;
-#include <string.h>
-#include <stdbool.h>
+
 
 bool isLetter(char ch)
 {
@@ -29,7 +28,7 @@ bool isVowel(char ch)
     return false;
 }
 
-void spliString(char s[], char vow[], char con[])
+void splitString(char s[], char vow[], char con[])
 {
     int i, j = 0, k = 0;
     for(int i = 0; s[i] != '\0'; i++)
@@ -55,9 +54,9 @@ int main()
 {
     char s[100] = "test of the function";
     char vow[100], con[100];
-    spliString(s, vow, con);
-    cout << "Original: %s\n", s);
-    cout << "Vowels:   %s\n", vow);
-    cout << "Cons:     %s\n", con);
+    splitString(s, vow, con);
+    cout << "Original: " << s << endl;
+    cout << "Vowels:   " << vow << endl;
+    cout << "Cons:     " << con << endl;
     return 0;
 }

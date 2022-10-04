@@ -7,8 +7,8 @@ same as the sequence of its characters from right to left
 */
 
 #include <iostream>
+#include <cstring>
 using namespace std;
-#include <string.h>
 
 int checkPalindrome(char s[])
 {
@@ -27,8 +27,8 @@ int main()
     int result;
     result = checkPalindrome(s);
     if(result)
-        cout << "Is a palindrome.\n");
+        cout << "Is a palindrome.\n";
     else
-        cout << "Is not a palindrome.\n");
+        cout << "Is not a palindrome.\n";
     return 0;
 }

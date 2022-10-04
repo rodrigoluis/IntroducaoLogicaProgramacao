@@ -5,17 +5,16 @@ the concatenation of two other strings previously read.
 
 #include <iostream>
 using namespace std;
-#include <string.h>
 
 int main()
 {
     char s1[100], s2[100], s3[200];
-    cout << "Write the first string: ");
-    fgets(s1, sizeof(s1), stdin);
-    cout << "Write the second string: ");
-    fgets(s2, sizeof(s2), stdin);
+    cout << "Write the first string: ";
+    cin.getline(s1, 100);
+    cout << "Write the second string: ";
+    cin.getline(s2, 100);
 
-    // Manually concatenate strings (could use strcat)
+    // Manually concatenate strings (culd use strcat)
     int i;
     for(i = 0; s1[i] != '\0' && s1[i] != '\n'; i++)
     {
@@ -28,7 +27,7 @@ int main()
     }
     s3[j] = '\0';
 
-    cout << "Resulting string: ");
+    cout << "Resulting string: " << endl;
     puts(s3);
     return 0;
 }
