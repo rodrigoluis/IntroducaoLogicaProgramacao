@@ -14,17 +14,18 @@ a record was read at that specific position in the vector.
 */
 
 #include <iostream>
+#include <cstring>
 using namespace std;
-#include <string.h>
+
 #define N 100
 
-typedef struct 
+struct person
 {
   char id[12];
   char name[100];
   char phone[15];
   int age;
-} person;
+};
 
 void initPeople(person list[])
 {

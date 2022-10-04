@@ -8,43 +8,44 @@ player. The requested operations must be implemented in functions.
 
 #include <iostream>
 using namespace std;
-#define N 11
+#define N 3
 
-typedef struct 
+struct player
 {
     char name[100];
     int shirt;
     float weight;
     float height;
-} player;
+};
 
 void readPlayersInfo(player s[])
 {
   for(int i = 0; i < N; i++)
   {
-    cout << "Inform player %d info.\n", i);
-    cout << " Name: ");
-    fgets(s[i].name, sizeof(s[i].name), stdin);
-    cout << " Shirt Number: ");
-    cin >> %d", &s[i].shirt);
-    cout << " Weight: ");
-    cin >> %f", &s[i].weight);
-    cout << " Height: ");
-    cin >> %f%*c", &s[i].height);       
+    cout << "Inform player " << i << " info:" << endl;
+    cout << " Name: ";
+    cin.getline(s[i].name, sizeof(s[i].name));
+    cout << " Shirt Number: ";
+    cin >> s[i].shirt;
+    cout << " Weight: ";
+    cin >> s[i].weight;
+    cout << " Height: ";
+    cin >> s[i].height;
+    cin.ignore();       
   }
 }
 
 void printPlayerInfo(player s[])
 {
-  cout << "-- Information of the players -- \n\n");
+  cout << "-- Player's Information -- \n\n";
   for(int i = 0; i < N; i++)
   {
-    cout << " Player %d\n", i);
-    cout << " >> Name:   %s", s[i].name);
-    cout << " >> Shirt:  %d\n", s[i].shirt);
-    cout << " >> Weight: %.2f\n", s[i].weight);
-    cout << " >> Height: %.2f\n", s[i].height);   
-    cout << "\n");
+    cout << " Player " << i << endl;
+    cout << " >> Name:   " << s[i].name << endl;
+    cout << " >> Shirt:  " << s[i].shirt << endl;
+    cout << " >> Weight: " << s[i].weight << endl;
+    cout << " >> Height: " << s[i].height << endl;
+    cout << endl;
   }
 }
 
@@ -60,7 +61,7 @@ void printInitialLightest(player s[])
       idLightest = i;
     }
   }
-  cout << "\nInitial of the lightest: %c\n", s[idLightest].name[0]);
+  cout << "\nInitial of the lightest: " << s[idLightest].name[0] << endl;
 }
 
 void printNumberHeaviest(player s[])
@@ -75,7 +76,7 @@ void printNumberHeaviest(player s[])
       idHeaviest = i;
     }
   }
-  cout << "\nShirt of the heaviest: %d\n", s[idHeaviest].shirt);
+  cout << "\nShirt of the heaviest: " << s[idHeaviest].shirt << endl;
 }
 
 

@@ -6,13 +6,13 @@ function. At the end, print the computed distance in the main function.
 */
 
 #include <iostream>
-using namespace std;
 #include <cmath>
+using namespace std;
 
-typedef struct 
+struct point
 {
     float x, y;
-} point;
+};
 
 float euclideanDistance(point p1, point p2)
 {
@@ -24,13 +24,13 @@ float euclideanDistance(point p1, point p2)
 int main()
 {
     point p1, p2;  
-    cout << "Inform the coordinates (x, y) of point p1: ");
-    cin >> %f %f", &p1.x, &p1.y);
-    cout << "Inform the coordinates (x, y) of point p2: ");
-    cin >> %f %f", &p2.x, &p2.y);
+    cout << "Inform the coordinates (x, y) of point p1: ";
+    cin >> p1.x >> p1.y;
+    cout << "Inform the coordinates (x, y) of point p2: ";
+    cin >> p2.x >> p2.y;
 
     float distance = euclideanDistance(p1, p2);
 
-    cout << "Euclidean distance between p1 and p2 is %.2f.\n", distance);   
+    cout << "Euclidean distance between p1 and p2 is " << distance << endl;   
     return 0;
 }

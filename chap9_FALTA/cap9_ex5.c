@@ -11,13 +11,13 @@ of the cars in each shift. Use functions to perform the requested operations.
 using namespace std;
 #define N 10
 
-typedef struct 
+struct car
 {
     char name[100];
     char plate[9];    
     char color[20];
     char shift;
-} car;
+};
 
 void readCarInfo(car list[])
 {

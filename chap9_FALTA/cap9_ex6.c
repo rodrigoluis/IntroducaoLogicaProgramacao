@@ -15,13 +15,13 @@ and will be its array index + 1.
 using namespace std;
 #define N 1000
 
-typedef struct 
+struct product
 {
   int id;
   char name[150];
   int stock;
   float price;
-} product;
+};
 
 void initProductList(product list[])
 {

@@ -7,7 +7,6 @@ Print the resulting string in the main function.
 
 #include <iostream>
 using namespace std;
-#include <string.h>
 
 int removeChar(char s[], char ch)
 {
