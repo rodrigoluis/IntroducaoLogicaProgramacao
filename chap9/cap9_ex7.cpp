@@ -41,15 +41,16 @@ void insertPerson(person list[])
   {
     if( strcmp(list[i].id, "empty") == 0 )
     {
-      cout << "\nPerson %d info.\n", i+1);
-      cout << " ID: ");      
-      fgets(list[i].id, sizeof(list[i].id), stdin);
-      cout << " Name: ");
-      fgets(list[i].name, sizeof(list[i].name), stdin);
-      cout << " Age: ");
-      cin >> %d%*c", &list[i].age);   
-      cout << " Phone number: ");
-      fgets(list[i].phone, sizeof(list[i].phone), stdin);
+      cout << "\nPerson " << i+1 << " info.\n";
+      cout << " ID: ";      
+      cin.getline(list[i].id, sizeof(list[i].id));
+      cout << " Name: ";
+      cin.getline(list[i].name, sizeof(list[i].name));
+      cout << " Age: ";
+      cin >> list[i].age;   
+      cin.ignore();
+      cout << " Phone number: ";
+      cin.getline(list[i].phone, sizeof(list[i].phone));
       break;        
     }
   }
@@ -57,58 +58,58 @@ void insertPerson(person list[])
 void printByAge(person list[])
 {
   int ageMin, ageMax;
-  cout << "Inform min and max age: ");
-  cin >> %d %d%*c", &ageMin, &ageMax);
-  cout << "\n\n-- People between %d and %d years --\n", ageMin, ageMax);  
+  cout << "Inform min and max age: ";
+  cin >> ageMin >> ageMax;
+  cout << "\n\n-- People between " << ageMin << " and " << ageMax << " years --\n";  
   for(int i = 0; i < N; i++)
   {
     if(strcmp(list[i].id, "empty") &&
        list[i].age >= ageMin &&
        list[i].age <= ageMax)
     {
-      cout << "\nPerson ID %s", list[i].id);
-      cout << " Name:  %s", list[i].name);
-      cout << " Age: %d\n", list[i].age);
-      cout << " Phone: %s", list[i].phone);            
+      cout << "\nPerson ID" << list[i].id;
+      cout << " Name: " << list[i].name;
+      cout << " Age: " << list[i].age;
+      cout << " Phone: " << list[i].phone;            
     }
   }  
-  cout << "\n\n");  
+  cout << "\n\n";  
 }
 
 void printByInitial(person list[])
 {
   char initial;
-  cout << "Inform initial letter of the name: ");
-  cin >> %c%*c", &initial);
-  cout << "\n\n-- People with initial letter %c --\n", initial);  
+  cout << "Inform initial letter of the name: ";
+  cin >> initial;
+  cout << "\n\n-- People with initial letter " << initial << " --\n";  
   for(int i = 0; i < N; i++)
   {
     if(strcmp(list[i].id, "empty") &&
        list[i].name[0] == initial)
     {
-      cout << "\nPerson ID %s", list[i].id);
-      cout << " Name:  %s", list[i].name);
-      cout << " Age: %d\n", list[i].age);
-      cout << " Phone: %s", list[i].phone);            
+      cout << "\nPerson ID " << list[i].id;
+      cout << " Name:  " << list[i].name;
+      cout << " Age: " << list[i].age;
+      cout << " Phone: " << list[i].phone;            
     }
   }  
-  cout << "\n\n");  
+  cout << "\n\n";  
 }
 
 void printAll(person list[])
 {
-  cout << "\n\n-- People registered --\n");  
+  cout << "\n\n-- People registered --\n";  
   for(int i = 0; i < N; i++)
   {
     if(strcmp(list[i].id, "empty"))
     {
-      cout << "\nPerson ID %s", list[i].id);
-      cout << " Name:  %s", list[i].name);
-      cout << " Age: %d\n", list[i].age);
-      cout << " Phone: %s", list[i].phone);            
+      cout << "\nPerson ID" << list[i].id;
+      cout << " Name:  " << list[i].name;
+      cout << " Age: " << list[i].age;
+      cout << " Phone: " << list[i].phone;            
     }
   }  
-  cout << "\n\n");
+  cout << "\n\n";
 }
 
 
@@ -121,13 +122,14 @@ int main()
     // Menu
     while(op)
     {
-      cout << "\n\n-- Menu --\n");
-      cout << "1. Insert person.\n");      
-      cout << "2. Print by age.\n");      
-      cout << "3. Print by initial.\n");      
-      cout << "4. Print all.\n");                        
-      cout << "0. Exit\n Option: ");
-      cin >> %d%*c", &op);
+      cout << "\n\n-- Menu --\n";
+      cout << "1. Insert person.\n";      
+      cout << "2. Print by age.\n";      
+      cout << "3. Print by initial.\n";      
+      cout << "4. Print all.\n";                        
+      cout << "0. Exit\n Option: ";
+      cin >> op;
+      cin.ignore();
       switch(op)
       {
         case 1:

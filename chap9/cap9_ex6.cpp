@@ -37,15 +37,16 @@ void insertProduct(product list[])
   {
     if(list[i].id == 0)
     {
-      cout << "\nInform product info.\n");
+      cout << "\nInform product info.\n";
       list[i].id = i+1;
-      cout << " Name: ");
-      fgets(list[i].name, sizeof(list[i].name), stdin);
-      cout << " Stock: ");
-      cin >> %d", &list[i].stock);   
-      cout << " Price: ");
-      cin >> %f%*c", &list[i].price); 
-      break;        
+      cout << " Name: ";
+      cin.getline(list[i].name, sizeof(list[i].name));
+      cout << " Stock: ";
+      cin >> list[i].stock;   
+      cout << " Price: ";
+      cin >> list[i].price;
+      cin.ignore();   
+      break; // Insert only one product each time
     }
   }
 }
@@ -53,39 +54,39 @@ void insertProduct(product list[])
 void removeProduct(product list[])
 {
   int id;
-  cout << "Inform product's id: ");
-  cin >> %d%*c", &id);
+  cout << "Inform product's id: ";
+  cin >> id;
   for(int i = 0; i < N; i++)
   {
     if(list[i].id == id)
     {
-      cout << "Product removed: %s.", list[i].name);
+      cout << "Product removed: " << list[i].name;
       list[i].id = 0;
       return;
     }
   }
-  cout << "No product with id %d was found.\n", id);
+  cout << "No product with id " << id << " was found.\n";
 }
 
 void printAllProducts(product list[])
 {
-  cout << "\n\n-- Product List --\n");  
+  cout << "\n\n-- Product List --";  
   for(int i = 0; i < N; i++)
   {
     if(list[i].id != 0)
     {
-      cout << "\nProduct ID %d\n", list[i].id);
-      cout << " Name:  %s", list[i].name);
-      cout << " Stock: %d -", list[i].stock);
-      cout << " Price: %.2f\n", list[i].price);            
+      cout << "\n\nProduct ID " << list[i].id;
+      cout << "\n Name:  " << list[i].name;
+      cout << "\n Stock: " << list[i].stock;
+      cout << "\n Price: " << list[i].price;            
     }
   }  
-  cout << "\n\n");
+  cout << "\n\n";
 }
 
 void printLargestInventory(product list[])
 {
-  cout << "\n\n-- Product List --\n");  
+  cout << "\n\n-- Product List --\n";  
   float inventory = 0;
   int id = 0;
   for(int i = 0; i < N; i++)
@@ -99,14 +100,14 @@ void printLargestInventory(product list[])
       }
     }
   }  
-  cout << "\nLargest Inventory: %s", list[id].name);
-  cout << "Inventory: %d.\n", list[id].stock);  
-  cout << "\n\n");
+  cout << "\nLargest Inventory: " << list[id].name;
+  cout << "\nInventory:  " <<  list[id].stock;  
+  cout << "\n\n";
 }
 
 void printMostValuableProduct(product list[])
 {
-  cout << "\n\n-- Product List --\n");  
+  cout << "\n\n-- Product List --\n";  
   float value = 0;
   int id = 0;
   for(int i = 0; i < N; i++)
@@ -121,12 +122,10 @@ void printMostValuableProduct(product list[])
       }
     }
   }  
-  cout << "\nMost valuable product: %s", list[id].name);
-  cout << "Value: R$ %.2f.\n", list[id].price * list[id].stock);  
-  cout << "\n\n");
+  cout << "\nMost valuable product: " << list[id].name;
+  cout << "\nValue: R$ " << list[id].price * list[id].stock;  
+  cout << "\n\n";
 }
-
-
 
 int main()
 {
@@ -137,14 +136,15 @@ int main()
     // Menu
     while(op)
     {
-      cout << "\n\n-- Menu --\n");
-      cout << "1. Insert product.\n");      
-      cout << "2. Remove product.\n");      
-      cout << "3. Print all products.\n");      
-      cout << "4. Print product with largest inventory.\n");                        
-      cout << "5. Print product with highest value.\n");                                    
-      cout << "0. Exit\n Option: ");
-      cin >> %d%*c", &op);
+      cout << "\n\n-- Menu --\n";
+      cout << "1. Insert product.\n";      
+      cout << "2. Remove product.\n";      
+      cout << "3. Print all products.\n";      
+      cout << "4. Print product with largest inventory.\n";                        
+      cout << "5. Print product with highest value.\n";                                    
+      cout << "0. Exit\n Option: ";
+      cin >> op;
+      cin.ignore();
       switch(op)
       {
         case 1:
@@ -164,6 +164,5 @@ int main()
           break;
       }
     }
-    
     return 0;
 }

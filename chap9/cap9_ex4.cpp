@@ -8,7 +8,7 @@ player. The requested operations must be implemented in functions.
 
 #include <iostream>
 using namespace std;
-#define N 3
+#define N 11
 
 struct player
 {
