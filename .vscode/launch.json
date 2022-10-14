@@ -16,8 +16,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/rodrigo/Desktop/Book_C++/meuscodigos",
-      "program": "/home/rodrigo/Desktop/Book_C++/meuscodigos/build/Debug/outDebug",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}/build/",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
