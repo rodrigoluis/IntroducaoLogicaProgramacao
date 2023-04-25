@@ -10,31 +10,31 @@ linha formada pelos pontos p1 e p2.
 #include <cmath>
 using namespace std;
 
-class Point
+struct Point
 {
-   public:
-      float x, y;
+   float x, y;
 };
 
-class Line
+struct Line
 {
-   private:
-      Point p1, p2;
-   public:
-      void setP1(float x, float y)
-      {
-         p1.x = x;
-         p1.y = y;
-      }
-      void setP2(float x, float y)
-      {
-         p2.x = x;
-         p2.y = y;
-      }
-      float getLength()
-      {
-         return sqrt(pow(p2.x - p1.x, 2) + pow(p2.y - p1.y, 2));
-      }
+   // Fields
+   Point p1, p2;
+
+   // Functions
+   void setP1(float x, float y)
+   {
+      p1.x = x;
+      p1.y = y;
+   }
+   void setP2(float x, float y)
+   {
+      p2.x = x;
+      p2.y = y;
+   }
+   float getLength()
+   {
+      return sqrt(pow(p2.x - p1.x, 2) + pow(p2.y - p1.y, 2));
+   }
 };
 
 int main()
