@@ -1,7 +1,5 @@
 /*
-Write a function that receives a positive integer n 
-parameter and calculate the value of S. The function 
-will return the value of S.
+4. Escreva uma função para receber como parâmetro um valor n inteiro e positivo e calcular o valor de S. A função retornará o valor de S.
  S = 1 + 1/2 + 1/3 + 1/4 + ... + 1/n 
 */
 

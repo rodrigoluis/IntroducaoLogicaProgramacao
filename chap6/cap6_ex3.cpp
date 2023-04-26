@@ -1,7 +1,5 @@
 /*
-Given an array containing the age of 10 students, write a function 
-that returns the number of students over the average age. 
-The function will receive the array and its size.
+3. Dada uma tabela contendo a idade de 10 alunos, faça uma função que retorne o número de alunos com idade superior a média. A função receberá o vetor e seu tamanho.
 */
 
 #include <iostream>

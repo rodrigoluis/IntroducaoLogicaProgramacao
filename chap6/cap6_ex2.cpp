@@ -1,7 +1,5 @@
 /*
-Write a function that receives an array of real numbers, its size and a scalar. 
-The function must multiply this array by the scalar. 
-Print the resulting array in another function.
+2. Desenvolva uma função que receba um vetor de números reais, seu tamanho e um escalar. A função deve efetuar a multiplicação deste vetor pelo escalar. Imprima o vetor modificado em outra função.
 */
 
 #include <iostream>

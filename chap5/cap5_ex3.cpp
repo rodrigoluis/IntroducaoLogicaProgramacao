@@ -1,8 +1,5 @@
 /*
-John is 1.50 meters tall and grows 2 centimeters per year, 
-while Paul is 1.40 meters tall and grows 3 centimeters per year. 
-Write a function to calculate and return how many years it will 
-take for Paul to be bigger than John.
+3. Chico tem 1,50 metro e cresce 2 centímetros por ano, enquanto Zé tem 1,40 metro e cresce 3 centímetros por ano. Construa um algoritmo para calcular e imprimir quantos anos serão necessários para que Zé seja maior que Chico.
 */
 
 #include <iostream>

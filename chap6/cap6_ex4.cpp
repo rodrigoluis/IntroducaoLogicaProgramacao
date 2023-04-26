@@ -1,7 +1,5 @@
 /*
-Write a function that receives 3 arrays of real numbers and their sizes (integer). 
-The function must sum the values of the first two arrays in the third one. 
-Print the values ​​of the third array in another function.
+4. Escreva uma função que receba 3 vetores de números reais e um inteiro que representará o tamanho dos vetores (tamanho é o mesmo para os 3 vetores). A função deve somar os valores dos dois primeiros vetores no terceiro. Imprima o terceiro em outra função. 
 */
 
 #include <iostream>

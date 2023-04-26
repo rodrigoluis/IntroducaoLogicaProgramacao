@@ -1,8 +1,5 @@
 /*
-Make an algorithm to read the information of N students (where N is defined with 
-the define directive). The information to be read from each student is name (100 
-characters) and a final grade (real). At the end, inform the names of the students 
-who were approved (final grade >= 60). Use functions for reading and printing.
+4. Faça um algoritmo para ler as informações de N alunos (sendo N definido com a diretiva define).  As informações que deverão ser lidas de cada aluno são nome (100 caracteres) e média final (real). Ao final, informe os nomes dos alunos que foram aprovados (média final >= 60). Para a leitura e a impressão usar funções.
 */
 
 #include <iostream>

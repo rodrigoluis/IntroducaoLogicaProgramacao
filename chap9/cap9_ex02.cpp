@@ -1,8 +1,5 @@
 /*
-Create a structure called point containing only the x and y (real) coordinates of 
-the point. In the main function, declare 2 points, read the x and y coordinates of 
-each point and calculate the euclidean distance between them in a separate 
-function. At the end, print the computed distance in the main function.
+2. Crie uma estrutura chamada ponto contendo as coordenadas x e y (real) de um ponto. Na função principal declare 2 pontos, leia as coordenadas x e y de cada ponto e calcule a distância entre eles em uma função. Apresentar no final a distância euclidiana entre estes dois pontos na função principal.
 */
 
 #include <iostream>

@@ -1,10 +1,5 @@
 /*
-Make an algorithm to register the vehicles of a company. The company has 10 cars. 
-Each register contains the driver's name (100 characters), vehicle plate (10 
-characters), vehicle color (20 characters) and operating shift (1 character). 
-The value of the shift variable can assume the values: m (morning), a (afternoon), 
-n (night) or d (all day). After the registration of all cars, print the information 
-of the cars in each shift. Use functions to perform the requested operations.
+6. Faça um algoritmo para cadastrar os veículos de uma empresa.  A empresa possui 10 veículos. Cada registro deve conter o nome do condutor (100 caracteres), placa do veículo (10 caracteres), cor do veículo (20 caracteres) e turno de operação (1 caractere). O valor da variável turno poderá assumir os valores: m (manhã), t (tarde), n (noite) ou i (dia inteiro).  Após o registro de todos os veículos, informe quais veículos foram cadastrados no sistema em cada um dos turnos. Utilize funções para fazer as operações pedidas.
 */
 
 #include <iostream>

@@ -1,9 +1,5 @@
 /*
-Crie uma estrutura chamada pessoa contendo somente a idade desta pessoa. 
-Dentro da própria estrutura, crie funções para cadastrar a idade da pessoa 
-e retornar a idade cadastrada. Ao cadastrar a idade, a função deve verificar 
-se o valor informado é maior que zero e menor que 150, emitindo uma mensagem 
-de erro se o valor informado for inválido.
+3. Crie uma estrutura chamada pessoa contendo somente a idade desta pessoa. Dentro da própria estrutura, crie funções para cadastrar a idade da pessoa e retornar a idade cadastrada. Ao cadastrar a idade, a função deve verificar se o valor informado é maior que zero e menor que 150, emitindo uma mensagem de erro se o valor informado for inválido.
 */
 
 #include <iostream>

@@ -1,6 +1,5 @@
 /*
-Redo the previous exercise by passing the array and its size as a parameter 
-to a function. Print the lowest value of the array and its index.
+6. Modifique o exercício anterior para que o vetor e seu tamanho sejam recebidos por uma função. Esta função deve encontrar o menor valor do vetor e imprimir este valor e sua posição (índice).
 */
 
 #include <iostream>

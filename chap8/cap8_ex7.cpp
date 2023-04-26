@@ -1,6 +1,5 @@
 /*
-Make an algorithm to read 3 real number arrays of dimension 10 and a function 
-to generate a matrix (10 x 3) where each column is given by one of these arrays.
+7. Faça um algoritmo para ler 3 vetores reais de dimensão 10 e uma função para gerar uma matriz (10 x 3) onde cada coluna é dada por um destes vetores.
 */
 
 #include <iostream>

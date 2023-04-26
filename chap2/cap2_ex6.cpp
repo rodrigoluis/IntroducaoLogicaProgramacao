@@ -1,6 +1,5 @@
 /*
-Make an algorithm to generate and print 
-the result of H = 1 + 1/2 + 1/3 + 1/4 + 1/5.
+Faça um algoritmo para gerar e imprimir o resultado de H = 1 + 1/2 + 1/3 + 1/4 + 1/5.
 */
 
 #include <iostream>

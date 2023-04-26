@@ -1,6 +1,5 @@
 /*
-Make an algorithm to read a 6 x 3 matrix and a function to generate two 3 x 3 
-matrices, the first with the first 3 lines and the second with the last lines.
+6. Faça um algoritmo para ler uma matriz 6 x 3 e uma função para gerar duas matrizes 3 x 3, a primeira com as 3 primeiras linhas e a segunda com as restantes.
 */
 
 #include <iostream>

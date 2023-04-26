@@ -1,8 +1,5 @@
 /*
-Make an algorithm to display the sum of two 3 x 3 matrices. 
-Create a function to read a matrix (it will be called twice 
-with different parameters) and a second function to print 
-the sum, element by element, of the two matrices passed as parameters.
+1. Faça um algoritmo para exibir a soma de duas matrizes quadradas 3 x 3.  Crie uma função para ler uma matriz (será chamada duas vezes com parâmetros diferentes) e uma segunda função para imprimir a soma das matrizes passadas como parâmetro.
 */
 
 #include <iostream>

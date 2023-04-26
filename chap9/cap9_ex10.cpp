@@ -1,16 +1,5 @@
 /*
-Make an algorithm to register people. Each person will contain an 
-ID (12 characters), name (100 characters), age (integer), and 
-telephone (10 characters). Your system will store a maximum of 
-100 people and allow you to read the information of a person 
-(include the person in the first vacant position of the vector), 
-print by age (inform the minimum and maximum ages and print people 
-who are in this range), print by initial (consider that all initials are 
-registered in upper-case)  and print all registered records. Create a menu 
-to access the functions that will perform the requested operations. 
-Initialize the ID of all 100 records at the beginning of the program 
-with the text "empty". Use this information to define whether or not 
-a record was read at that specific position in the vector.
+10. Faça um algoritmo para cadastrar pessoas. Cada pessoa conterá um CPF (12 caracteres), nome (100 caracteres), idade (inteiro) e telefone (20 caracteres). Seu sistema armazenará no máximo 100 pessoas e permitirá ler as informações de uma pessoa (incluir a pessoa na primeira posição vaga do vetor), imprimir por idade (informar as idades mínima e máxima e imprimir as pessoas que estão neste intervalo), imprimir por inicial (pedir aqui somente a inicial do nome) e imprimir todos os registros cadastrados. Crie um menu para ter acesso às funções que realizarão as operações pedidas. Inicialize o CPF de todos os 100 registros no início do programa com o texto "vazio". Utilize essa informação para definir se um registro foi ou não lido naquela posição específica do vetor. 
 */
 
 #include <iostream>

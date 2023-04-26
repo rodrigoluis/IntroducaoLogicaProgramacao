@@ -1,6 +1,5 @@
 /*
-Write a function to calculate and return N! (factorial of N). 
-The integer value N will be provided by the user. Consider, by definition, that:
+7. Elabore uma função para calcular N! (fatorial de N). O valor inteiro N será fornecido pelo usuário. Considere, por definição, que:
  N! = N * (N-1) * (N-2) * ... * 3 * 2 * 1 
  0! = 1 
 */

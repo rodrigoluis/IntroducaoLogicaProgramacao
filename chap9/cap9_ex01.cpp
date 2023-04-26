@@ -1,7 +1,5 @@
 /*
-Make an algorithm to read a student's data. The data to be stored 
-in this structure are name (100 characters), course (40 characters) 
-and age (integer). Read and print the data in the main function.
+1. Faça um algoritmo para ler os dados de um aluno. Os dados a serem guardados nesta estrutura são nome (100 caracteres), curso (40 caracteres) e idade (inteiro). Fazer a leitura e a impressão dos dados na função principal.
 */
 
 #include <iostream>

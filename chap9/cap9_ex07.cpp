@@ -1,9 +1,5 @@
 /*
-Crie duas estruturas, uma representando um ponto (x, y) e uma segunda 
-representando uma linha. Esta segunda estrutura será composta por dois 
-pontos (p1 e p2) e terá funções para atribuir valores para p1 e p2. 
-Esta estrutura terá também uma função que retornará o comprimento da 
-linha formada pelos pontos p1 e p2. 
+7. Crie duas estruturas, uma representando um ponto (x, y) e uma segunda representando uma linha. Esta segunda estrutura será composta por dois pontos (p1 e p2) e terá funções para atribuir valores para p1 e p2. Esta estrutura terá também uma função que retornará o comprimento (l) da linha formada pelos pontos p1 e p2 através da equação l = √[(x₂ - x₁)² + (y₂ - y₁)²].
 */
 
 #include <iostream>

@@ -1,7 +1,5 @@
 /*
-Write a function to receive the base and height of a right triangle. 
-This function should calculate and return its area using 
-the equation Area = (Base * Height) / 2.
+Escreva uma função para receber a base e a altura de um triângulo. Esta função deve calcular e imprimir a sua área usando a equação Area = (Base * Altura) / 2.
 */
 
 #include <iostream>

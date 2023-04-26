@@ -1,6 +1,5 @@
 /*
-Build an algorithm to read 5 integer values, 
-calculate and print the sum of those values.
+Construa um algoritmo para ler 5 valores inteiros, calcular e imprimir a soma desses valores.
 */
 
 #include <iostream>

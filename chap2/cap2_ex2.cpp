@@ -1,5 +1,5 @@
 /*
-Print the value 2.346728 with 1, 2, 3 and 5 decimal places.
+Faça um algoritmo para imprimir o valor 2.346728 com 1, 2, 3 e 5 casas decimais.
 */
 
 #include <iostream>

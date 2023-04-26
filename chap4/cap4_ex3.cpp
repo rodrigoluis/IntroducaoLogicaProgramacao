@@ -1,6 +1,5 @@
 /*
-Make a function that receives an integer as a 
-parameter and inform if it is divisible by 2.
+3. Faça uma função que receba como parâmetro um número inteiro e informe se ele é divisível por 2.
 */
 
 #include <iostream>

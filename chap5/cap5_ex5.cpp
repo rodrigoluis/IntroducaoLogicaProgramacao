@@ -1,8 +1,5 @@
 /*
-Given a debt of $ 10,000.00 that grows at 2.5% rate per month 
-and an investment of $ 1,500.00 with a yield of 4% per month, 
-write a function to determine the number of months needed to 
-pay the debt using this investment.
+5. Dada uma dívida de R$ 10.000,00 que cresce a juros de 2,5% ao mês e uma aplicação de R$ 1.500,00 com rendimento de 4% ao mês, escreva uma função para determinar o número de meses necessários para pagar a dívida utilizando esta aplicação.
 */
 
 #include <iostream>

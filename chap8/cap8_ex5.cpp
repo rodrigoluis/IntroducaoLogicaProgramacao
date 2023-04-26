@@ -1,7 +1,5 @@
 /*
-Make an algorithm to read a square matrix of dimension 10, a function 
-to find the highest value of this matrix and another function to find 
-the lowest value. Print the values ​​found in the main function.
+5. Faça um algoritmo para ler uma matriz quadrada de dimensão 10, uma função que encontre o maior valor desta matriz e outra função que encontre o menor valor. Imprima os valores encontrados na função principal.
 */
 
 #include <iostream>

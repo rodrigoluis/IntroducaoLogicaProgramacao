@@ -1,6 +1,5 @@
 /*
-Write a function that receives a string and invert it. 
-Print the resulting string in the main function.
+3. Crie uma função para receber uma string e a inverta caractere a caractere. Imprima a string resultante na função principal.
 */
 
 #include <iostream>

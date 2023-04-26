@@ -1,8 +1,5 @@
 /*
-The conversion of Fahrenheit to Celsius is obtained by the 
-formula C = (F-32) /1.8. Develop a function to calculate and 
-print a table of Celsius as a function of Fahrenheit ranging 
-from 50 to 150 from 1 in 1.
+6. A conversão de graus Fahrenheit para Celsius é obtida pela fórmula C = (F-32)/1.8. Desenvolva um algoritmo para calcular e imprimir uma tabela de graus Celsius em função de graus Fahrenheit que variem de 50 a 150 de 1 em 1.
 */
 
 #include <iostream>

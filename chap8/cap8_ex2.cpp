@@ -1,6 +1,5 @@
 /*
-Write a function that receives a 5 x 5 square matrix and convert it to 
-an identity matrix. Print the generated matrix in another function.
+2. Faça uma função que receba uma matriz quadrada 5 x 5 e a converta em uma matriz identidade. Imprima a matriz gerada em outra função.
 */
 
 #include <iostream>

@@ -1,6 +1,5 @@
 /*
-Calculate and display the volume of an oil can, 
-using the formula volume = 3.14159 * radius * radius * height.
+Calcule e apresente o volume de uma lata de óleo, utilizando a fórmula volume = 3.14159 * raio * raio * altura.
 */
 
 #include <iostream>

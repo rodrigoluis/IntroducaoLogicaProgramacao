@@ -1,7 +1,5 @@
 /*
-Make a function to receive two real numbers and check 
-if both are greater than zero. If so, inform "Values ​​are valid". 
-Otherwise, inform "Invalid values".
+4. Faça uma função para receber dois números reais e verificar se ambos são maiores que zero. Caso positivo, informar "Valores são válidos". Caso contrário, informar "Valores inválidos".
 */
 
 #include <iostream>

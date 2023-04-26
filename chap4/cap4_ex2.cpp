@@ -1,8 +1,5 @@
 /*
-Make a program to read two integer numbers and divide 
-the first by the second, only if the second is different 
-from zero. At the end, print the result or a message 
-if the second number was zero.
+2. Faça um algoritmo para ler dois números inteiros e fazer a divisão do primeiro pelo segundo (somente se o segundo for diferente de zero). Imprima o resultado da operação ou uma mensagem indicando que a operação não foi realizada pois o segundo número era zero.
 */
 
 #include <iostream>

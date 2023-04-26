@@ -1,7 +1,5 @@
 /*
-Write a function to receive a student's three grades and 
-return the weighted average. Consider the following 
-values ​​for the weight of the grades: 2, 3, 5.
+Escreva uma função para receber as três notas de um aluno e imprimir a média ponderada. Considere como peso das notas os seguintes valores: 2, 3, 5.
 */
 
 #include <iostream>

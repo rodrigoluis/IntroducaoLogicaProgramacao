@@ -1,8 +1,5 @@
 /*
-Make a function that receives number of the day of the week and print its name. 
-Consider number 1 as Sunday, 2 for Monday, etc. If the day 
-does not exist (less than 1 or greater than 7), display the 
-message "Invalid day of the week".
+6. Faça uma função que recebe o número do dia da semana e imprima o seu respectivo nome por extenso. Considerar o número 1 como domingo, 2 para segunda etc. Caso o dia não exista (menor que 1 ou maior que 7), exibir a mensagem "Dia da semana inválido".
 */
 
 #include <iostream>

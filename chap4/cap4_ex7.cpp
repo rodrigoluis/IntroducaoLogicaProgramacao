@@ -1,9 +1,5 @@
 /*
-The employees of a company received a salary increase: 
-technicians (code = 1), 50% increase; managers (code = 2), 
-30%; other employees (code = 3), 20%. Write a function 
-that receives an employee's job code and a salary, 
-calculate and print the new salary after the increase.
+7. Os funcionários de uma empresa receberam um aumento de salário: técnicos (código = 1), 50%; gerentes (código = 2), 30%; demais funcionários (código = 3), 20%. Escreva uma função para ler o código do cargo de um funcionário e o valor do seu salário atual. Após a leitura, calcule e imprima o novo salário após o aumento.
 */
 
 #include <iostream>

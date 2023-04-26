@@ -1,7 +1,5 @@
 /*
-Make a function to receive an array of integers, its size and a value 
-to be searched for in this array. The function must return the number 
-of occurrences of this value in the array.
+7. Faça uma função para receber um vetor de números inteiros, seu tamanho e um valor a ser procurado neste vetor. A função deve retornar o número de ocorrências deste valor no vetor.
 */
 
 #include <iostream>

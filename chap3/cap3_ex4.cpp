@@ -1,7 +1,5 @@
 /*
-Write a function to receive a man's height in meters, 
-calculate and print his ideal weight (in kg) with 
-the formula IdealWeight = (72.7 * height - 58).
+Escreva uma função para receber a altura de um homem, calcular e imprimir o seu peso ideal com a fórmula pesoIdeal = (72.7 * altura - 58).
 */
 
 #include <iostream>

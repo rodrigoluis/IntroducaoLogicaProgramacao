@@ -1,5 +1,5 @@
 /*
-Write a function to receive two integers and print the product of those values.
+Escreva uma função para receber dois números inteiros e imprimir o produto desses valores.
 */
 
 #include <iostream>

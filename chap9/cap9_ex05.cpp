@@ -1,9 +1,5 @@
 /*
-Make an algorithm to store the information of 11 players on a football team. Each 
-player has a name (100 characters), shirt number (integer), weight (float) and 
-height (float). Read the information of each player and print at the end this 
-information, the initial of the lightest player and the number of the heaviest 
-player. The requested operations must be implemented in functions.
+5. Faça um algoritmo para armazenar as informações de 11 jogadores de um time de futebol. Cada jogador possui nome (100 caracteres), número da camisa (inteiro), peso (real) e altura (real). Leia as informações de cada jogador e imprima ao final estas informações, a inicial do jogador mais baixo e o número do jogador mais pesado. As operações solicitadas serão implementadas em funções.
 */
 
 #include <iostream>

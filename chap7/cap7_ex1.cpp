@@ -1,6 +1,5 @@
 /*
-Make a function that receives a string as a parameter 
-and return the number of blank spaces in that string.
+1. Faça uma função que receba uma string como parâmetro e retorne o número de espaços em branco desta string.
 */
 
 #include <iostream>

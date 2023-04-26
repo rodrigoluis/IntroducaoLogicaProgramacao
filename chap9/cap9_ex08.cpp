@@ -1,10 +1,5 @@
 /*
-Crie uma estrutura que represente um círculo. Esta estrutura terá como único 
-campo o seu raio. A classe deve conter métodos para atribuir valor à este 
-raio e para imprimir a área do círculo (A = π * r²). A classe deve verificar 
-se o valor do raio é maior do que zero, imprimindo uma mensagem de erro 
-caso contrário. A classe também deve verificar se o raio foi corretamente 
-atribuído antes de imprimir a área do círculo.
+8. Crie uma estrutura que represente um círculo. Esta estrutura terá como único campo o seu raio. A classe deve conter métodos para atribuir valor à este raio e para imprimir a área do círculo (A = π * r²). A classe deve verificar se o valor do raio é maior do que zero, imprimindo uma mensagem de erro caso contrário. A classe também deve verificar se o raio foi corretamente atribuído antes de imprimir a área do círculo.
 */
 
 #include <iostream>

@@ -1,6 +1,5 @@
 /*
-Make a function to receive two integer numbers and inform if 
-the first is greater, less than or equal to the second.
+1. Faça uma função para ler dois números inteiros e informar se o primeiro é maior, menor ou igual ao segundo.
 */
 
 #include <iostream>

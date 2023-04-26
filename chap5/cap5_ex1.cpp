@@ -1,5 +1,5 @@
 /*
-Write a function to print all even numbers in the range 1-100.
+1. Desenvolva uma função para imprimir todos os números pares no intervalo 1-100.
 */
 
 #include <iostream>

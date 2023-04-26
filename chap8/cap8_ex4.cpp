@@ -1,7 +1,5 @@
 /*
-Write an algorithm to read a matrix of real numbers, a scalar 
-and a function to calculate the multiplication of the matrix 
-by the scalar. Print the result in a second function.
+4. Desenvolva um algoritmo para ler uma matriz de números reais, um escalar e uma função que calcule a multiplicação da matriz pelo escalar. Imprima o resultado em uma segunda função.
 */
 
 #include <iostream>

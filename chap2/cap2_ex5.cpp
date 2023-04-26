@@ -1,6 +1,5 @@
 /*
-Build an algorithm to read 6 real values, 
-calculate and print the average of those values.
+Construa um algoritmo para ler 6 valores reais, calcular e imprimir a média desses valores.
 */
 
 #include <iostream>

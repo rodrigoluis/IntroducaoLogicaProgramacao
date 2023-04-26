@@ -1,9 +1,7 @@
 /*
-Write a function that receives a string and print it modified, 
-such that the first letter of each word is capitalized. 
-Example:
-   Input:  test of the function
-   Output: Test Of The Function
+2. Escreva uma função que receba uma string e a imprima modificada, tal que a primeira letra de cada palavra fique em maiúscula. Exemplo:
+   String:       teste da função
+   Impressão: Teste Da Função
 */
 
 #include <iostream>

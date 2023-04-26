@@ -1,14 +1,5 @@
 /*
-Make an algorithm to manage a company's inventory. Each product will have 
-an identifier (integer), name (150 characters), quantity in stock (integer) 
-and unit price (float). Create an array with 1000 products and initialize 
-the identifier of each product with the value 0. Create a menu that allows 
-you to insert a new product (check the first identifier with value zero), 
-remove a product using its identifier, print all products registered, 
-print which product has the largest  inventory and print which product 
-has the highest value (multiply the unit value by the stock to discover 
-the most valuable product). The identifier of an added product is unique 
-and will be its array index + 1.
+9. Faça um algoritmo para gerenciar o estoque de uma empresa. Cada produto terá um identificador (inteiro), nome (150 caracteres), quantidade em estoque (inteiro) e preço unitário (real). Crie um vetor com 1000 produtos e inicialize o identificador de cada produto com o valor 0. Crie um menu que permita inserir um novo produto (verificar o primeiro identificador com valor zero), remover um produto através de seu identificador, imprimir todos os produtos que foram cadastrados, imprimir qual produto está com maior estoque e imprimir as informações do produto com maior valor na empresa (multiplique o valor unitário pelo estoque para descobrir o produto mais valioso). O identificador de um produto adicionado é único e será seu índice + 1.
 */
 
 #include <iostream>

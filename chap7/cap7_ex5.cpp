@@ -1,9 +1,5 @@
 /*
-Write a function to receive a string and return 1 if it is a 
-palindrome or zero otherwise. A word is said to be palindrome 
-if the sequence of its characters from left to right is the 
-same as the sequence of its characters from right to left 
-(Ex .: level, stats).
+5. Escreva uma função que receba uma string e retorne 1 se a mesma for um palíndromo ou zero caso contrário. Uma palavra é dita ser palíndromo se a sequência de seus caracteres da esquerda para a direita é igual a sequência de seus caracteres da direita para a esquerda (Ex.: arara, asa).
 */
 
 #include <iostream>

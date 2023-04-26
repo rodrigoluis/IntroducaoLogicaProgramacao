@@ -1,9 +1,5 @@
 /*
-Taking the height (in meters) and sex (m for male or f for female) 
-of a person as input data, make a function to calculate and return 
-his/her ideal weight, using the formula 
-weight = (72.7 * height) - 58 for men and 
-weight = (62.1 * height) - 44.7 for women.
+5. Tendo como dados de entrada a altura (em metros) e o sexo de uma pessoa ('m' para masculinoe e 'f' para feminino), faça uma função para calcular e retornar seu peso ideal, utilizando a fórmula peso = (72.7*altura)-58 para homens e peso = (62.1*altura)-44.7 para mulheres.
 */
 
 #include <iostream>

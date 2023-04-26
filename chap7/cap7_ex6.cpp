@@ -1,7 +1,5 @@
 /*
-Make an algorithm to read a string and transfer consonants 
-to one vector and vowels to another. At the end, print each 
-of the vectors created.
+6. Faça um algoritmo para ler uma string e transferir as consoantes para um vetor e as vogais para outro. Ao final, imprimir cada um dos vetores criados.
 */
 
 #include <iostream>

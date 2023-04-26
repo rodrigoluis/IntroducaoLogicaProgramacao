@@ -1,6 +1,5 @@
 /*
-Make an algorithm to create and print a string that will be 
-the concatenation of two other strings previously read.
+4. Desenvolva um algoritmo para criar e imprimir uma string que será a concatenação de duas outras strings anteriormente lidas.
 */
 
 #include <iostream>

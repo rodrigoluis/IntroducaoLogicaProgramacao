@@ -1,7 +1,5 @@
 /*
-Write a function to receive as parameter the duration of an 
-experiment expressed in seconds and print that time in hours, 
-minutes and seconds.
+Escreva uma função para receber por parâmetro o tempo de duração de um experimento expresso em segundos e imprimir esse mesmo tempo em horas, minutos e segundos.
 */
 
 #include <iostream>

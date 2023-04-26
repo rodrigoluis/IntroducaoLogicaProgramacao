@@ -1,6 +1,5 @@
 /*
-Make an algorithm to read an array of real numbers of size 6 
-and print the arithmetic mean of the elements of this array.
+1. Faça um algoritmo para ler um vetor de números reais de tamanho 6 e imprimir a média aritmética dos elementos deste vetor.
 */
 
 #include <iostream>

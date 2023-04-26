@@ -1,8 +1,5 @@
 /*
-Make a function that receives a string and another character. 
-The function should remove all occurrences of the character 
-passed by the parameter and return the number of removals performed. 
-Print the resulting string in the main function.
+7. Faça uma função para receber uma string e um caractere qualquer. A função deve remover todas as ocorrências do caractere passado por parâmetro e retornar o número de remoções realizadas. Imprima a string modificada na função principal.
 */
 
 #include <iostream>

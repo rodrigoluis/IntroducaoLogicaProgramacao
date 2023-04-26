@@ -1,7 +1,5 @@
 /*
-Write a function to receive a person's age in years, months and days 
-and return that age expressed in days. Consider each year has 365 days
- and each month has 30 days. Print the computed days in the main function.
+Escreva uma função para receber a idade de uma pessoa em anos, meses e dias e retornar essa idade expressa em dias. Considere que cada ano possui 365 dias e cada mês possui 30 dias. Imprima o resultado na função principal.
 */
 
 #include <iostream>

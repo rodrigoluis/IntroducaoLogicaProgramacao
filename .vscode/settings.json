@@ -32,6 +32,7 @@
     "**/.*/**",
     "**/.vscode",
     "**/.vscode/**"
-  ],
+],
+"editor.wordWrapColumn": 100,
 
 }

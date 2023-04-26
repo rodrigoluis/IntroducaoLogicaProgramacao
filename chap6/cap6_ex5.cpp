@@ -1,6 +1,5 @@
 /*
-Write an algorithm that reads an array of integers. After, find the smallest 
-value and print this value and its index position.
+5. Escreva um algoritmo que leia um vetor de inteiros. Após a leitura, faça um algoritmo que encontre o menor valor do vetor e imprima este valor e sua posição (índice).
 */
 
 #include <iostream>

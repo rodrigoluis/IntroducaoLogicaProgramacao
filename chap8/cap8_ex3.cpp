@@ -1,7 +1,5 @@
 /*
-Make an algorithm to read a square matrix of size 10 and a function to 
-invert the lines through the columns in a second matrix of the same size. 
-Print the second matrix at the end.
+3. Faça um algoritmo para ler uma matriz quadrada de tamanho 10 e uma função para inverter as linhas pelas colunas em uma segunda matriz de mesmo tamanho. Imprima ao final a segunda matriz.
 */
 
 #include <iostream>
