@@ -28,13 +28,13 @@ void insertProduct(product list[])
   {
     if(list[i].id == 0)
     {
-      cout << "\nInform product info.\n";
+      cout << "\nInforme as informações do produto.\n";
       list[i].id = i+1;
-      cout << " Name: ";
+      cout << " Nome: ";
       cin.getline(list[i].name, sizeof(list[i].name));
-      cout << " Stock: ";
+      cout << " Estoque: ";
       cin >> list[i].stock;   
-      cout << " Price: ";
+      cout << " Preço: ";
       cin >> list[i].price;
       cin.ignore();   
       break; // Insert only one product each time
@@ -45,31 +45,31 @@ void insertProduct(product list[])
 void removeProduct(product list[])
 {
   int id;
-  cout << "Inform product's id: ";
+  cout << "Informe o ID do produto: ";
   cin >> id;
   for(int i = 0; i < N; i++)
   {
     if(list[i].id == id)
     {
-      cout << "Product removed: " << list[i].name;
+      cout << "Produto removido: " << list[i].name;
       list[i].id = 0;
       return;
     }
   }
-  cout << "No product with id " << id << " was found.\n";
+  cout << "Nenhum produto com o ID " << id << " foi encontrado.\n";
 }
 
 void printAllProducts(product list[])
 {
-  cout << "\n\n-- Product List --";  
+  cout << "\n\n-- Lista de produtos --";  
   for(int i = 0; i < N; i++)
   {
     if(list[i].id != 0)
     {
-      cout << "\n\nProduct ID " << list[i].id;
-      cout << "\n Name:  " << list[i].name;
-      cout << "\n Stock: " << list[i].stock;
-      cout << "\n Price: " << list[i].price;            
+      cout << "\n\nID " << list[i].id;
+      cout << "\n Nome:  " << list[i].name;
+      cout << "\n Estoque: " << list[i].stock;
+      cout << "\n Preço: " << list[i].price;            
     }
   }  
   cout << "\n\n";
@@ -77,7 +77,7 @@ void printAllProducts(product list[])
 
 void printLargestInventory(product list[])
 {
-  cout << "\n\n-- Product List --\n";  
+  cout << "\n\n-- Lista de produtos --\n";  
   float inventory = 0;
   int id = 0;
   for(int i = 0; i < N; i++)
@@ -91,14 +91,14 @@ void printLargestInventory(product list[])
       }
     }
   }  
-  cout << "\nLargest Inventory: " << list[id].name;
-  cout << "\nInventory:  " <<  list[id].stock;  
+  cout << "\nMaior estoque: " << list[id].name;
+  cout << "\nEstoque:  " <<  list[id].stock;  
   cout << "\n\n";
 }
 
 void printMostValuableProduct(product list[])
 {
-  cout << "\n\n-- Product List --\n";  
+  cout << "\n\n-- Lista de produtos --\n";  
   float value = 0;
   int id = 0;
   for(int i = 0; i < N; i++)
@@ -113,8 +113,8 @@ void printMostValuableProduct(product list[])
       }
     }
   }  
-  cout << "\nMost valuable product: " << list[id].name;
-  cout << "\nValue: R$ " << list[id].price * list[id].stock;  
+  cout << "\nProduto de maior valor: " << list[id].name;
+  cout << "\nValor: R$ " << list[id].price * list[id].stock;  
   cout << "\n\n";
 }
 
@@ -128,12 +128,12 @@ int main()
     while(op)
     {
       cout << "\n\n-- Menu --\n";
-      cout << "1. Insert product.\n";      
-      cout << "2. Remove product.\n";      
-      cout << "3. Print all products.\n";      
-      cout << "4. Print product with largest inventory.\n";                        
-      cout << "5. Print product with highest value.\n";                                    
-      cout << "0. Exit\n Option: ";
+      cout << "1. Insere produto.\n";      
+      cout << "2. Remove produto.\n";      
+      cout << "3. Imprime todos os produtos.\n";      
+      cout << "4. Imprime produto com maior estoque.\n";                        
+      cout << "5. Imprime produto com maior valor.\n";                                    
+      cout << "0. Sair\n Opção: ";
       cin >> op;
       cin.ignore();
       switch(op)

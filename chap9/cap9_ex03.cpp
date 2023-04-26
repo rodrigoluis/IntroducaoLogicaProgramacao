@@ -16,7 +16,7 @@ struct Person
       if(val > 0)
          age = val;
       else
-         cout << "Invalid age entered." << endl;
+         cout << "Idade inválida." << endl;
    }
    int getAge()
    {
@@ -29,6 +29,6 @@ int main()
    Person p; // Cria o objeto p do tipo Pessoa
    p.setAge(-1); // Atribui um valor inválido para idade
    p.setAge(10); // Atribui um valor correto à idade
-   cout << "Person's Age: " << p.getAge() << endl;   
+   cout << "Idade da pessoa: " << p.getAge() << endl;   
    return 0;
 }

@@ -24,13 +24,13 @@ int removeChar(char s[], char ch)
 
 int main()
 {
-    char s[100] = "test of the function";
+    char s[100] = "teste da função";
     char ch = 't';
     int removed;
-    cout << "Input: " << s << endl;
+    cout << "Entrada: " << s << endl;
     removed = removeChar(s, ch);
     cout << "Final: " << s << endl;
-    cout << "Character \'" << ch << "\' was removed " << removed << " times." << endl;
+    cout << "Caracter \'" << ch << "\' foi removido " << removed << " vezes." << endl;
 
     return 0;
 }

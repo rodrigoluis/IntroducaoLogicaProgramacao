@@ -20,9 +20,9 @@ int main()
 {
     char s[100];
     int spaces;
-    cout << "Inform a string: ";
+    cout << "Informe uma string: ";
     cin.getline(s, 100);
     spaces = countSpaces(s);
-    cout << "Number of Spaces: " << spaces << endl;
+    cout << "Número de espaços: " << spaces << endl;
     return 0;
 }

@@ -10,7 +10,7 @@ using namespace std;
 void readArray(float vec[N])
 {
     int i, j;
-    cout << "Inform the values of the array: ";
+    cout << "Informe os valores da matriz: ";
     for(i = 0; i < N; i++)
     {
         cin >> vec[i];
@@ -61,7 +61,7 @@ int main()
     // Generating matrix
     generateMatrix(m, v1, v2, v3);
 
-    cout << "\nGenerated Matrix:\n";
+    cout << "\nMatriz gerada :\n";
     printMatrix(m);
     return 0;
 }

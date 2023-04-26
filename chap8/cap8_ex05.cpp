@@ -9,7 +9,7 @@ using namespace std;
 void readMatrix(int mat[N][N])
 {
     int i, j;
-    cout << "Inform the values of this matrix: ";
+    cout << "Informe os valores da matriz: ";
     for(i = 0; i < N; i++)
     {
         for(j = 0; j < N; j++)
@@ -62,8 +62,8 @@ int main()
     highest = findHighest(mat);
 
     // Print sum
-    cout << "Lowest value:  " << lowest << endl;
-    cout << "Highest value: " << highest << endl;    
+    cout << "Menor valor:  " << lowest << endl;
+    cout << "Maior valor: " << highest << endl;    
 
     return 0;
 }

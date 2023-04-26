@@ -20,7 +20,7 @@ int main()
 {
     int n;
     float S;
-    cout << "Inform n: ";
+    cout << "Informe n: ";
     cin >> n;
     S = computeFunc(n);
     cout << "S = " << S << endl;

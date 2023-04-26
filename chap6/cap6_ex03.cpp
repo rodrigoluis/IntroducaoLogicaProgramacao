@@ -14,7 +14,7 @@ int countOverAge(int ages[], int size)
         sum += ages[i];
     }
     float average = sum/(float) size;
-    cout << "Average age: " << average << endl;
+    cout << "Idade média: " << average << endl;
 
     // count students
     int counter = 0;
@@ -30,6 +30,6 @@ int main()
 {
     int ages[10] = {15, 18, 7, 6, 5, 8, 9, 16, 15, 17};
     int over = countOverAge(ages, 10);
-    cout << "Students over average age: " << over << endl; 
+    cout << "Número de alunos com idade acima da média: " << over << endl; 
     return 0;
 }

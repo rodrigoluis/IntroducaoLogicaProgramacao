@@ -50,7 +50,7 @@ void splitString(char s[], char vow[], char con[])
 
 int main()
 {
-    char s[100] = "test of the function";
+    char s[100] = "string de teste";
     char vow[100], con[100];
     splitString(s, vow, con);
     cout << "Original: " << s << endl;

@@ -24,9 +24,9 @@ int main()
     // Testing function
     float height, weight;
     char sex;
-    cout << "Inform height and sex: ";
+    cout << "Informe altura e sexo: ";
     cin >> height >> sex;
     weight = computeIdealWeight(height, sex);
-    cout << "Ideal weight: " << weight << endl;
+    cout << "Peso ideal: " << weight << endl;
     return 0;
 }

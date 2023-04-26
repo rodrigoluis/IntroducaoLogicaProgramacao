@@ -38,7 +38,7 @@ int main()
     Line l1;
     l1.setP1(2.0, 3.0);
     l1.setP2(4.0, 7.5);
-    cout << "Line length: " << l1.getLength() << endl;
+    cout << "Comprimento da linha: " << l1.getLength() << endl;
     return 0;
 }
 

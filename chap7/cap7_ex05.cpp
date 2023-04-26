@@ -23,8 +23,8 @@ int main()
     int result;
     result = checkPalindrome(s);
     if(result)
-        cout << "Is a palindrome.\n";
+        cout << "É um palíndromo.\n";
     else
-        cout << "Is not a palindrome.\n";
+        cout << "Não é um palíndromo.\n";
     return 0;
 }

@@ -27,9 +27,9 @@ int sumInterval(int n1, int n2)
 int main()
 {
     int sum, n1, n2;
-    cout << "Inform 2 numbers: ";
+    cout << "Informe 2 números inteiros: ";
     cin >> n1 >> n2;
     sum = sumInterval(n1, n2);
-    cout << "Sum of the interval: " << sum << endl;
+    cout << "Soma do intervalo fechado: " << sum << endl;
     return 0;
 }

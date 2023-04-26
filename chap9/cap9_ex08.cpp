@@ -15,7 +15,7 @@ struct Circle {
    {
       if(r <= 0)
       {
-         cout << "Radius must be greater than zero." << endl;
+         cout << "Raio tem que ser maior que zero." << endl;
          return;
       }
       radius= r;
@@ -25,10 +25,10 @@ struct Circle {
       if(radius)
       {
          area = radius * radius* M_PI;
-         cout << "Circle's Area: " << area << endl;
+         cout << "Área do círculo: " << area << endl;
       }
       else
-         cout << "Radius was not set." << endl;
+         cout << "Raio não foi informado." << endl;
    }
 };
    

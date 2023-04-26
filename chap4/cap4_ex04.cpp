@@ -9,11 +9,11 @@ void checkValues(float v1, float v2)
 {
     if(v1>0 && v2>0)
     {
-        cout << "Values ​​are valid.\n";
+        cout << "Valores são válidos.\n";
     }
     else
     {
-        cout << "Invalid values.\n";
+        cout << "Valores são inválidos.\n";
     }
 }
 
@@ -21,7 +21,7 @@ int main()
 {
     // Testing function
     float v1, v2;
-    cout << "Inform two values: ";
+    cout << "Informe dois valores reais: ";
     cin >> v1 >> v2;
     checkValues(v1, v2);
     return 0;

@@ -9,14 +9,14 @@ void printProduct(int n1, int n2)
 {
     int p;
     p = n1 * n2;
-    cout << "Product: " << p << endl;
+    cout << "Produto dos valores: " << p << endl;
 
 }
 
 int main()
 {
     int n1, n2;
-    cout << "Inform two integers: ";
+    cout << "Informe dois números inteiros: ";
     cin >> n1 >> n2;
     printProduct(n1, n2);
     return 0;

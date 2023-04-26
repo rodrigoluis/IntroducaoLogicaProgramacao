@@ -25,7 +25,7 @@ void capitalize(char s[])
 
 int main()
 {
-    char s[100] = "test of the function";
+    char s[100] = "teste da função";
     capitalize(s);
     cout << s << endl;
     return 0;

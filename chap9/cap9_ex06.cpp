@@ -18,14 +18,14 @@ void readCarInfo(car list[])
 {
   for(int i = 0; i < N; i++)
   {
-    cout << "\nInform car " << i << " info.\n";
-    cout << " Driver's name: ";
+    cout << "\nInformações do carro " << i << " .\n";
+    cout << " Nome do condutor: ";
     cin.getline(list[i].name, sizeof(list[i].name));
-    cout << " Car plate: ";
+    cout << " Placa: ";
     cin.getline(list[i].plate, sizeof(list[i].plate));
-    cout << " Color: ";
+    cout << " Cor: ";
     fgets(list[i].color, sizeof(list[i].color), stdin);
-    cout << " Shift: ";
+    cout << " Turno: ";
     cin >> list[i].shift;       
     cin.ignore();
   }
@@ -33,19 +33,19 @@ void readCarInfo(car list[])
 
 void printCarsByShift(car list[])
 {
-  char shifts[4] = {'m','a','n','d'};
+  char shifts[4] = {'m','t','n','i'};
 
-  cout << "\n\n-- Cars by shift -- \n\n";
+  cout << "\n\n-- Carros por turno -- \n\n";
   for(int s = 0; s < 4; s++)
   {
-    cout << "Shift: " << shifts[s];
+    cout << "Turno: " << shifts[s];
     for(int i = 0; i < N; i++)
     {
       if(list[i].shift == shifts[s])
       {
-        cout << "\n * Driver Name: " << list[i].name;
-        cout << "\n * Plate: " << list[i].plate;
-        cout << "\n * Color: " << list[i].color;
+        cout << "\n * Nome do condutor: " << list[i].name;
+        cout << "\n * Placa: " << list[i].plate;
+        cout << "\n * Cor: " << list[i].color;
       }
     }
     cout << endl;    

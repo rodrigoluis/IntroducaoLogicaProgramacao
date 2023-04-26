@@ -15,7 +15,7 @@ void multiplyByScalar(float v[], int size, float scalar)
 
 void printArray(float v[], int size)
 {
-    cout << "Array: ";
+    cout << "Vetor: ";
     for(int i = 0; i < size; i++)
     {
         cout << v[i] << "  ";

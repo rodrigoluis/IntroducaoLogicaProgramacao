@@ -10,28 +10,28 @@ void printName(int day)
     switch(day)
     {
         case 1:
-            cout << "Sunday.\n";
+            cout << "Domingo.\n";
             break;
         case 2:
-            cout << "Monday.\n";
+            cout << "Segunda.\n";
             break;
         case 3:
-            cout << "Tuesday.\n";
+            cout << "Terça.\n";
             break;
         case 4:
-            cout << "Wednesday.\n";
+            cout << "Quarta.\n";
             break;
         case 5:
-            cout << "Thursday.\n";
+            cout << "Quinta.\n";
             break;
         case 6:
-            cout << "Friday.\n";
+            cout << "Sexta.\n";
             break;
         case 7:
-            cout << "Saturday.\n";
+            cout << "Sábado.\n";
             break;
         default:            
-            cout << "Invalid day of the week.\n";
+            cout << "Dia da semana inválido.\n";
     }
 }
 
@@ -39,7 +39,7 @@ int main()
 {
     // Testing function
     int day;
-    cout << "Inform the number of the day: ";
+    cout << "Informe o número do dia da semana: ";
     cin >> day;
     printName(day);
     return 0;

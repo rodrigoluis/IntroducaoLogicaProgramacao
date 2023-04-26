@@ -8,11 +8,11 @@ using namespace std;
 int main()
 {
     int v1, v2, v3, v4, v5, sum;    
-    cout << "Insert 5 integer values: ";
+    cout << "Informe 5 valores inteiros: ";
     cin >> v1 >> v2 >> v3 >> v4 >> v5;
 
     sum = v1 + v2 + v3 + v4 + v5;
 
-    cout << "Sum of the values: " << sum << endl;
+    cout << "Soma dos valores: " << sum << endl;
     return 0;
 }

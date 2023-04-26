@@ -18,14 +18,14 @@ void readPlayersInfo(player s[])
 {
   for(int i = 0; i < N; i++)
   {
-    cout << "Inform player " << i << " info:" << endl;
-    cout << " Name: ";
+    cout << "Informe as informações do jogador " << i << " :" << endl;
+    cout << " Nome: ";
     cin.getline(s[i].name, sizeof(s[i].name));
-    cout << " Shirt Number: ";
+    cout << " Número da camisa: ";
     cin >> s[i].shirt;
-    cout << " Weight: ";
+    cout << " Peso: ";
     cin >> s[i].weight;
-    cout << " Height: ";
+    cout << " Altura: ";
     cin >> s[i].height;
     cin.ignore();       
   }
@@ -33,14 +33,14 @@ void readPlayersInfo(player s[])
 
 void printPlayerInfo(player s[])
 {
-  cout << "-- Player's Information -- \n\n";
+  cout << "-- Informações do jogador -- \n\n";
   for(int i = 0; i < N; i++)
   {
-    cout << " Player " << i << endl;
-    cout << " >> Name:   " << s[i].name << endl;
-    cout << " >> Shirt:  " << s[i].shirt << endl;
-    cout << " >> Weight: " << s[i].weight << endl;
-    cout << " >> Height: " << s[i].height << endl;
+    cout << " Jogador " << i << endl;
+    cout << " >> Nome:   " << s[i].name << endl;
+    cout << " >> Camisa: " << s[i].shirt << endl;
+    cout << " >> Peso:   " << s[i].weight << endl;
+    cout << " >> Altura: " << s[i].height << endl;
     cout << endl;
   }
 }
@@ -57,7 +57,7 @@ void printInitialLightest(player s[])
       idLightest = i;
     }
   }
-  cout << "\nInitial of the lightest: " << s[idLightest].name[0] << endl;
+  cout << "\nInicial do mais leve: " << s[idLightest].name[0] << endl;
 }
 
 void printNumberHeaviest(player s[])
@@ -72,7 +72,7 @@ void printNumberHeaviest(player s[])
       idHeaviest = i;
     }
   }
-  cout << "\nShirt of the heaviest: " << s[idHeaviest].shirt << endl;
+  cout << "\nCamisa do mais pesado: " << s[idHeaviest].shirt << endl;
 }
 
 

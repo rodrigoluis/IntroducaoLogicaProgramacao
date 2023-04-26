@@ -9,15 +9,15 @@ int main()
 {
     // Testing function
     int v1, v2;
-    cout << "Inform two integers: ";
+    cout << "Informe dois inteiros: ";
     cin >> v1 >> v2;
     if( v2 != 0)
     {
-        cout << "Result: " << (float) v1/v2 << endl;
+        cout << "Divisão: " << (float) v1/v2 << endl;
     }
     else
     {
-        cout << "Second value must be different from zero.\n";
+        cout << "Segundo valor tem que ser diferente de zero.\n";
     }
     return 0;
 }

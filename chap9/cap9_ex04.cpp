@@ -16,10 +16,10 @@ void readStudents(student s[])
 {
   for(int i = 0; i < N; i++)
   {
-    cout << "Inform student's name: ";
+    cout << "Nome do estudante: ";
     cin.getline(s[i].name, sizeof(s[i].name));
 
-    cout << "Inform student's grade: ";
+    cout << "Média final: ";
     cin >> s[i].grade;
     cin.ignore();
   }
@@ -27,7 +27,7 @@ void readStudents(student s[])
 
 void printApproved(student s[])
 {
-  cout << "List of approved students: \n";
+  cout << "Lista dos estudantes aprovados: \n";
   for(int i = 0; i < N; i++)
   {
     if(s[i].grade >= 60)

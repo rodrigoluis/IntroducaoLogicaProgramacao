@@ -8,7 +8,7 @@ using namespace std;
 void readMatrix(int mat[3][3])
 {
     int i, j;
-    cout << "Inform the 6 values of this matrix: ";
+    cout << "Informe os 9 valores da matriz: ";
     for(i = 0; i < 3; i++)
     {
         for(j = 0; j < 3; j++)
@@ -21,7 +21,7 @@ void readMatrix(int mat[3][3])
 void printSum(int m1[3][3], int m2[3][3])
 {
     int i, j;
-    cout << "\nSummed values, element by element:\n";
+    cout << "\nMatriz resultante:\n";
     for(i = 0; i < 3; i++)
     {
         for(j = 0; j < 3; j++)

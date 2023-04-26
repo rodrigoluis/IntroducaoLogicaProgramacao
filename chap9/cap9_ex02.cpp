@@ -21,13 +21,13 @@ float euclideanDistance(point p1, point p2)
 int main()
 {
     point p1, p2;  
-    cout << "Inform the coordinates (x, y) of point p1: ";
+    cout << "Informe as coordenadas (x, y) do ponto p1: ";
     cin >> p1.x >> p1.y;
-    cout << "Inform the coordinates (x, y) of point p2: ";
+    cout << "Informe as coordenadas (x, y) do ponto p2: ";
     cin >> p2.x >> p2.y;
 
     float distance = euclideanDistance(p1, p2);
 
-    cout << "Euclidean distance between p1 and p2 is " << distance << endl;   
+    cout << "Distância entre p1 e p2 é " << distance << endl;   
     return 0;
 }

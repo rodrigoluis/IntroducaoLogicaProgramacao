@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     float radius, height, volume;   
-    cout << "Inform radius and height of the oil can: ";
+    cout << "Informe o raio e altura da lata de óleo: ";
     cin >> radius >> height;
 
     volume = 3.14159 * radius * radius * height;

@@ -15,7 +15,7 @@ void sumArrays(float v1[], float v2[], float v3[], int size)
 
 void printArray(float v[], int size)
 {
-    cout << "Array: ";
+    cout << "Vetor: ";
     for(int i = 0; i < size; i++)
     {
         cout << v[i] << " ";

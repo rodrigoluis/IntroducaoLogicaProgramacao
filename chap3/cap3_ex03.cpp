@@ -15,7 +15,7 @@ float rightTriangleArea(float base, float height)
 int main()
 {
     float area, base, height;
-    cout << "Inform base and height: ";
+    cout << "Informe base e altura de um triângulo: ";
     cin >> base >> height;
     area = rightTriangleArea(base, height);
     cout << "Area: " << area << endl;

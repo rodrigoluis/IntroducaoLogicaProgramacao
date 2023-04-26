@@ -17,6 +17,6 @@ int main()
     // Testing the function
     int output;
     output = computeAge(23, 7, 15);
-    cout << "Number of computed days: " << output << endl;
+    cout << "Número de dias: " << output << endl;
     return 0;
 }

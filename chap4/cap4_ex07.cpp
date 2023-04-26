@@ -12,18 +12,18 @@ void printNewSalary(int code, float salary)
     {
         case 1:
             newSalary = salary * 1.50;
-            cout << "New Salary: " << newSalary << endl;
+            cout << "Novo salário: " << newSalary << endl;
             break;
         case 2:
             newSalary = salary * 1.30;
-            cout << "New Salary: " << newSalary << endl;
+            cout << "Novo salário: " << newSalary << endl;
             break;
         case 3:
             newSalary = salary * 1.20;
-            cout << "New Salary: " << newSalary << endl;
+            cout << "Novo salário: " << newSalary << endl;
             break;
         default:            
-            cout << "Invalid code.\n";
+            cout << "Código inválido.\n";
     }
 }
 
@@ -32,7 +32,7 @@ int main()
     // Testing function
     int code;
     float salary;
-    cout << "Inform the code and the salary: ";
+    cout << "Informe o código do salário: ";
     cin >> code >> salary;
     printNewSalary(code, salary);
     return 0;

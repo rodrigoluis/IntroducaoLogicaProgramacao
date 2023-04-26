@@ -21,6 +21,6 @@ int main()
     int v[10] = {15, 18, 7, 6, 5, 8, 9, 16, 15, 17};
     int value = 15;
     int count = countOccurrences(v, 10, value);
-    cout << "Number of ocurrences of " << value << " in the array is " << count << ".\n"; 
+    cout << "Número de ocorrências de " << value << " no vetor foi " << count << ".\n"; 
     return 0;
 }

@@ -15,9 +15,9 @@ float weightedAverage(float n1, float n2, float n3)
 int main()
 {
     float g1, g2, g3, average;
-    cout << "Inform students's grades: ";
+    cout << "Informe as 3 notas do estudante: ";
     cin >> g1 >> g2 >> g3;
     average = weightedAverage(g1, g2, g3);
-    cout << "Average grade: " << average << endl;
+    cout << "Média ponderada: " << average << endl;
     return 0;
 }

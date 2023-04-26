@@ -9,7 +9,7 @@ using namespace std;
 void readMatrix(int mat[N][N])
 {
     int i, j;
-    cout << "Inform the values of this matrix: ";
+    cout << "Informe os valores da matriz: ";
     for(i = 0; i < N; i++)
     {
         for(j = 0; j < N; j++)
@@ -55,7 +55,7 @@ int main()
     invertLines(mat1, mat2);
 
     // Print sum
-    cout << "\nResulting matrix:\n";
+    cout << "\nMatriz resultante:\n";
     printMatrix(mat2);
     return 0;
 }

@@ -9,13 +9,13 @@ void computeIdealWeight(float height)
 {
     float IdealWeight;
     IdealWeight = (72.7 * height - 58);
-    cout << "Ideal Weight: " << IdealWeight << " kg\n";
+    cout << "Peso ideal: " << IdealWeight << " kg\n";
 }
 
 int main()
 {
     float height;
-    cout << "Inform men's height: ";
+    cout << "Informe a altura: ";
     cin >> height;
     computeIdealWeight(height);
     return 0;

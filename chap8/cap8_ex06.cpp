@@ -12,7 +12,7 @@ using namespace std;
 void readMatrix(int mat[L][C])
 {
     int i, j;
-    cout << "Inform the values of this matrix: ";
+    cout << "Informe os valores da matriz: ";
     for(i = 0; i < L; i++)
     {
         for(j = 0; j < C; j++)
@@ -61,9 +61,6 @@ int main()
     splitMatrix(m, m2, m3);
 
     // Print matrices
-    cout << "\nFirst Matrix:\n";
+    cout << "\nPrimeira Matriz:\n";
     printMatrix(m2);
-    cout << "\nSecond Matrix:\n";
-    printMatrix(m3);    
-    return 0;
-}
+    cout << "\nSegunda Matriz

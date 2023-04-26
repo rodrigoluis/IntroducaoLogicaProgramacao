@@ -9,17 +9,17 @@ void printGreater(int v1, int v2)
 {
     if(v1 > v2)
     {
-        cout << "First is greater.\n";
+        cout << "Primeiro é o maior.\n";
     }
     else
     {
         if(v1 < v2)
         {
-            cout << "Second is greater.\n";
+            cout << "Segundo é o maior.\n";
         }
         else
         {
-            cout << "Number are equal.\n";
+            cout << "São iguais.\n";
         }
     }
 }
@@ -28,7 +28,7 @@ int main()
 {
     // Testing function
     int v1, v2;
-    cout << "Inform two integers: ";
+    cout << "Informe dois inteiros: ";
     cin >> v1 >> v2;
     printGreater(v1, v2);
     return 0;

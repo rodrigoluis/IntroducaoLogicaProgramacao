@@ -22,6 +22,6 @@ int main()
 {
     // Test function
     int years = yearsNeeded(150, 2.0, 140, 3.0);
-    cout << "Years: " << years << endl;
+    cout << "Anos: " << years << endl;
     return 0;
 }

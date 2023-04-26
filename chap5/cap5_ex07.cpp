@@ -21,7 +21,7 @@ int main()
 {
     // Test function
     int n;
-    cout << "Inform an integer: ";
+    cout << "Informe um número inteiro: ";
     cin >> n;
     cout << n << "! = " << fatorial(n) << endl;
     return 0;

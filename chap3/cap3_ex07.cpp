@@ -20,6 +20,6 @@ void duration(int sec)
 
 int main()
 {
-    duration(10925); // Test Input: 10925 sec. Expected output: 03:02:03
+    duration(10925); // Teste --> Entrada: 10925 sec. Saída esperada: 03:02:03
     return 0;
 }

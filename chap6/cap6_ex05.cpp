@@ -32,7 +32,7 @@ int main()
         }
     }
 
-    cout << "Smaller value is " << value << " and its is in index position " << index << ".\n";
+    cout << "Menor valor: " << value << " / Índice: " << index << ".\n";
 
     return 0;
 }

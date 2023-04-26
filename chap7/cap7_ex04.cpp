@@ -8,9 +8,9 @@ using namespace std;
 int main()
 {
     char s1[100], s2[100], s3[200];
-    cout << "Write the first string: ";
+    cout << "Informe a primeira string: ";
     cin.getline(s1, 100);
-    cout << "Write the second string: ";
+    cout << "Informe a segunda string: ";
     cin.getline(s2, 100);
 
     // Manually concatenate strings (culd use strcat)
@@ -26,7 +26,7 @@ int main()
     }
     s3[j] = '\0';
 
-    cout << "Resulting string: " << endl;
+    cout << "String resultante: " << endl;
     puts(s3);
     return 0;
 }

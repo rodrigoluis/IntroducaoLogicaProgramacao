@@ -20,7 +20,7 @@ void initPeople(person list[])
 {
   for(int i = 0; i < N; i++)
   {
-    strcpy(list[i].id, "empty");
+    strcpy(list[i].id, "vazio");
   }
 }
 
@@ -28,17 +28,17 @@ void insertPerson(person list[])
 {
   for(int i = 0; i < N; i++)
   {
-    if( strcmp(list[i].id, "empty") == 0 )
+    if( strcmp(list[i].id, "vazio") == 0 )
     {
-      cout << "\nPerson " << i+1 << " info.\n";
+      cout << "\nInformações da pessoa " << i+1 << ".\n";
       cout << " ID: ";      
       cin.getline(list[i].id, sizeof(list[i].id));
-      cout << " Name: ";
+      cout << " Nome: ";
       cin.getline(list[i].name, sizeof(list[i].name));
-      cout << " Age: ";
+      cout << " Idade: ";
       cin >> list[i].age;   
       cin.ignore();
-      cout << " Phone number: ";
+      cout << " Telefone: ";
       cin.getline(list[i].phone, sizeof(list[i].phone));
       break;        
     }
@@ -47,19 +47,19 @@ void insertPerson(person list[])
 void printByAge(person list[])
 {
   int ageMin, ageMax;
-  cout << "Inform min and max age: ";
+  cout << "Informe idade mínima e máxima: ";
   cin >> ageMin >> ageMax;
-  cout << "\n\n-- People between " << ageMin << " and " << ageMax << " years --\n";  
+  cout << "\n\n-- Pessoas entre " << ageMin << " e " << ageMax << " anos --\n";  
   for(int i = 0; i < N; i++)
   {
-    if(strcmp(list[i].id, "empty") &&
+    if(strcmp(list[i].id, "vazio") &&
        list[i].age >= ageMin &&
        list[i].age <= ageMax)
     {
-      cout << "\nPerson ID" << list[i].id;
-      cout << " Name: " << list[i].name;
-      cout << " Age: " << list[i].age;
-      cout << " Phone: " << list[i].phone;            
+      cout << "\nID da pessoa" << list[i].id;
+      cout << " Nome:     " << list[i].name;
+      cout << " Idade:    " << list[i].age;
+      cout << " Telefone: " << list[i].phone;            
     }
   }  
   cout << "\n\n";  
@@ -68,18 +68,18 @@ void printByAge(person list[])
 void printByInitial(person list[])
 {
   char initial;
-  cout << "Inform initial letter of the name: ";
+  cout << "Informe letra inicial do nome: ";
   cin >> initial;
-  cout << "\n\n-- People with initial letter " << initial << " --\n";  
+  cout << "\n\n-- Pessoas com letra inicial " << initial << " --\n";  
   for(int i = 0; i < N; i++)
   {
-    if(strcmp(list[i].id, "empty") &&
+    if(strcmp(list[i].id, "vazio") &&
        list[i].name[0] == initial)
     {
-      cout << "\nPerson ID " << list[i].id;
-      cout << " Name:  " << list[i].name;
-      cout << " Age: " << list[i].age;
-      cout << " Phone: " << list[i].phone;            
+      cout << "\nID da pessoa" << list[i].id;
+      cout << " Nome:     " << list[i].name;
+      cout << " Idade:    " << list[i].age;
+      cout << " Telefone: " << list[i].phone;             
     }
   }  
   cout << "\n\n";  
@@ -87,15 +87,15 @@ void printByInitial(person list[])
 
 void printAll(person list[])
 {
-  cout << "\n\n-- People registered --\n";  
+  cout << "\n\n-- Pessoas registradas --\n";  
   for(int i = 0; i < N; i++)
   {
-    if(strcmp(list[i].id, "empty"))
+    if(strcmp(list[i].id, "vazio"))
     {
-      cout << "\nPerson ID" << list[i].id;
-      cout << " Name:  " << list[i].name;
-      cout << " Age: " << list[i].age;
-      cout << " Phone: " << list[i].phone;            
+      cout << "\nID da pessoa" << list[i].id;
+      cout << " Nome:     " << list[i].name;
+      cout << " Idade:    " << list[i].age;
+      cout << " Telefone: " << list[i].phone;           
     }
   }  
   cout << "\n\n";
@@ -112,11 +112,11 @@ int main()
     while(op)
     {
       cout << "\n\n-- Menu --\n";
-      cout << "1. Insert person.\n";      
-      cout << "2. Print by age.\n";      
-      cout << "3. Print by initial.\n";      
-      cout << "4. Print all.\n";                        
-      cout << "0. Exit\n Option: ";
+      cout << "1. Insere pessoa.\n";      
+      cout << "2. Imprime por idade.\n";      
+      cout << "3. Imprime por inicial.\n";      
+      cout << "4. Imprime tudo.\n";                        
+      cout << "0. Sair\n Opção: ";
       cin >> op;
       cin.ignore();
       switch(op)

@@ -22,6 +22,6 @@ int main()
 {
     // Test function
     int months = monthsNeeded(10000, 2.5, 1500, 4);
-    cout << "Months: " << months << endl;
+    cout << "Meses: " << months << endl;
     return 0;
 }

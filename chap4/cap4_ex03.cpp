@@ -9,11 +9,11 @@ void isDividedBy2(int num)
 {
     if(num%2 == 0)
     {
-        cout << "It is divisible by two.\n";
+        cout << "É divisível por 2.\n";
     }
     else
     {
-        cout << "It is not divisible by two.\n";
+        cout << "Não é divisível por 2.\n";
     }
 }
 
@@ -21,7 +21,7 @@ int main()
 {
     // Testing function
     int v1;
-    cout << "Inform an integer: ";
+    cout << "Informe um inteiro: ";
     cin >> v1;
     isDividedBy2(v1);
     return 0;

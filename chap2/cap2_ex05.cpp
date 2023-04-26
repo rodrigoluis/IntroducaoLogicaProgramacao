@@ -8,11 +8,11 @@ using namespace std;
 int main()
 {
     float v1, v2, v3, v4, v5, v6, average;    
-    cout << "Insert 6 real values: ";
+    cout << "Informe seis valores reais: ";
     cin >> v1 >> v2 >> v3 >> v4 >> v5 >> v6;
 
     average = (v1 + v2 + v3 + v4 + v5 + v6) / 6.0;
 
-    cout << "Average: " << average << endl;
+    cout << "Média: " << average << endl;
     return 0;
 }
