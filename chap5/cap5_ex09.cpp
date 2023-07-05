@@ -6,6 +6,12 @@ Escreva uma função que leia os valores n1, n2 e x, e imprima os múltiplos de 
 using namespace std;
 
 void imprimeMultiplos(int n1, int n2, int x) {
+    if(n2<n1)
+    {
+       int temp = n1;
+       n1 = n2;
+       n2 = temp;
+    }
     cout << "Múltiplos de " << x << " no intervalo [" << n1 << ", " << n2 << "]:" << endl;
     for (int i = n1; i <= n2; i++) {
         if (i % x == 0) {
