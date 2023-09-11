@@ -63,4 +63,8 @@ int main()
     // Print matrices
     cout << "\nPrimeira Matriz:\n";
     printMatrix(m2);
-    cout << "\nSegunda Matriz
+    cout << "\nSegunda Matriz:\n";
+    printMatrix(m3);
+    
+    return 0;
+}
