@@ -16,8 +16,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/rodrigo/Desktop/Book_C++/provas",
-      "program": "/home/rodrigo/Desktop/Book_C++/provas/build/Debug/outDebug",
+      "cwd": "/media/Data/Dropbox/Projects/Book_C++/provas",
+      "program": "/media/Data/Dropbox/Projects/Book_C++/provas/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
